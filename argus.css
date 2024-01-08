@@ -116,6 +116,7 @@ footer {
 .card-group{
     margin-bottom: 5%;
 }
-.card-img-top{
-    width: 10%;
+
+.card img{
+    width: 20%;
 }
