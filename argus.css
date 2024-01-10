@@ -127,6 +127,8 @@ footer {
   }
 .card-group{
     margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .card img{
@@ -150,4 +152,24 @@ footer {
 }
 .navbar-brand{
     width: 5px;
+}
+
+.course .row{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.card_second h6{
+    font-size: larger;
+}
+
+.card_first p{
+    font-size: larger;
+}
+
+.argus-col h3{
+    text-align: center;
+}
+
+.argus-col1 h3{
+    text-align: center;
 }
