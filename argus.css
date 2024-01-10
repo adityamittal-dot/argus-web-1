@@ -12,7 +12,7 @@
     background-color: rgb(252, 246, 247);
 }
 .navbar img{
-    width: 60%;
+    width: 2000%;
 }
 .card-box {
     padding: 10px;
@@ -204,5 +204,10 @@ width: 150px;
 }
 
 .argus-col1 h3{
+    text-align: center;
+}
+.card i{
+    font-size: 700%;
+    color: black;
     text-align: center;
 }
