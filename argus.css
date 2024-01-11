@@ -219,3 +219,22 @@ width: 150px;
     font-size: 400%;
     font-weight: 1000;
 }
+.card-group .first{
+    margin-right: 5%;
+}
+.card-group .second{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.card-group .third{
+    margin-right: 5%;
+}
+.card-group .fourth{
+    margin-right: 5%;
+}
+.card-group .fifth{
+    margin-right: 5%;
+}
+.card-group .sixth{
+    margin-right: 5%;
+}
