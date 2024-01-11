@@ -6,3 +6,6 @@
 .navbar {
     background-color: rgb(252, 246, 247);
 }
+.navbar img{
+    width: 14.5%;
+}

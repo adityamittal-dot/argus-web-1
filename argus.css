@@ -116,6 +116,9 @@ width: 150px;
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
+.card .card-body h5{
+    text-align: center;
+}
 .footer{
     width: 100%;
     text-align: center;
@@ -210,4 +213,9 @@ width: 150px;
     font-size: 700%;
     color: black;
     text-align: center;
+}
+.head1 h1{
+    text-align: center;
+    font-size: 400%;
+    font-weight: 1000;
 }

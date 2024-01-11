@@ -1,0 +1,19 @@
+.navbar img{
+    width: 14.5%;
+}
+.pagehead h1{
+    text-align: center;
+}
+.row11{
+    display: flex;
+}
+.row12{
+    display: flex;
+    margin-left: 25%;
+}
+.tool{
+    margin-left: 17%;
+}
+.electrical{
+    margin-left: 30%;
+}
