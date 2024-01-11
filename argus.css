@@ -3,7 +3,7 @@
     padding:0;
     box-sizing:-border-box;
     scroll-behavior: smooth;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Poppins', sans-serif;
     list-style:none;
     
 }   
@@ -20,6 +20,7 @@ header{
     justify-content: space-between;
     padding: 5px 5px 5px 5px; 
 }
+
 
 .navmenu{
     display:flex;
@@ -208,7 +209,7 @@ height: 40%;
     align-items: center;
 }
 .footerClass {
-    background-color: #ff0000; /* Red background color */
+    background-color: #B90504; /* Red background color */
     color: #ffffff; /* White text color */
    
     text-align: center;
@@ -219,7 +220,7 @@ height: 40%;
   
   }
   footer{
-    background-color: #ff0000; /* Red background color */
+    background-color: #B90504; /* Red background color */
     padding: 20px;
   }
 
