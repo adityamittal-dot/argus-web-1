@@ -213,8 +213,8 @@ height: 40%;
 
 }
 .card_second{
-    padding-top: 3rem;
-    padding-bottom: 3rem;  
+    padding-top: 2rem;
+    padding-bottom: 2rem;  
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 2%;
@@ -344,6 +344,13 @@ height: 40%;
     width: 100%;
     height: 800%;
 }
-a{
-    text-decoration: none;
+
+.argus-col:hover{transform: scale(1.2)}
+.argus-col1:hover{transform:scale(1.2)}
+
+.card_first .card-body{
+    font-size: 90%;
+}
+.card_second .card-body{
+    font-size: 90%;
 }
