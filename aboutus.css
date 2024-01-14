@@ -136,3 +136,6 @@ header{
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+.about-us-front .lead{
+    font-size: 100%;
+}
