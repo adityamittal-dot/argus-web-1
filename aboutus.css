@@ -1,3 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:-border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    list-style:none;
+    
+}   
+
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    right:0;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px; 
+}
+
+.check-btn{
+    font-size: 2rem;
+    color:#B90504;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.navmenu{
+    display:flex;
+    justify-content:space-between;
+    position: sticky;
+    padding-top: 1%;
+}
+
+.navmenu a{
+   
+    text-transform: capitalize;
+    color:#2c2c2c;
+    font-size: 16px;
+    padding:10px 10px;
+    font-weight: 400;
+    transition:all .42s ease-in-out;
+    text-decoration: none;
+}
+
+.navmenu a:hover{
+    color:#B90504;  
+    transition:all .42s ease;
+}
+
+
+
+.logo img{
+    max-width: 100px;
+    height:auto;
+    margin-left: 50px;
+    transition: all .42s ease-in-out;
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}
 .about-us-front{
     margin-left: 5%;
     margin-right: 5%;
@@ -15,4 +82,57 @@
 .director{
     margin-left: 5%;
     width: 45%;
+}
+
+.hero{
+    background-color: #E9ECEF;
+    display: flex;
+    margin: 5rem;
+    
+    padding: 2.5rem;
+}
+.hero-text{
+    width: 50%;
+    align-items: left;
+}
+
+.hero-text h1{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'poppins';
+}
+
+.info-card{
+    display: flex;
+
+}
+.info-card-1{
+    display: flex;
+    margin-left: 5rem;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    justify-content: space-between;
+    border-radius: 50px;
+    
+}
+.info-card-2{
+    display: flex;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    justify-content: space-between;
+    border-radius: 50px;   
+}
+.card-name{
+    padding: 2rem;
+}
+.card-name h1{
+    font-weight: lighter;
+}
+.card-image{
+    background-color: #55595C;
+    color:white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
