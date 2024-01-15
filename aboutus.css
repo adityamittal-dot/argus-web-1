@@ -10,8 +10,7 @@
 
 header{
     background-color: white;
-    position: fixed;
-    width: 100%;
+    position: static;
     right:0;
     z-index: 1000;
     display: flex;
@@ -88,14 +87,19 @@ header{
     background-color: #E9ECEF;
     display: flex;
     margin: 5rem;
-    
+    margin-top: 5rem;
     padding: 2.5rem;
+    
 }
 .hero-text{
     width: 50%;
     align-items: left;
 }
-
+.hero-image img{
+    width:30rem;
+    height: 20rem;
+    margin-left: 10rem;
+}
 .hero-text h1{
     font-size: 4rem;
     font-weight: bold;
@@ -104,6 +108,7 @@ header{
 
 .info-card{
     display: flex;
+    margin-bottom: 5rem;
 
 }
 .info-card-1{
@@ -112,7 +117,7 @@ header{
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 50%;
     justify-content: space-between;
-    border-radius: 50px;
+    border-radius: 5px;
     
 }
 .info-card-2{
@@ -122,7 +127,7 @@ header{
     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 50%;
     justify-content: space-between;
-    border-radius: 50px;   
+    border-radius: 5px;   
 }
 .card-name{
     padding: 2rem;
@@ -133,8 +138,9 @@ header{
 .card-image{
     background-color: #55595C;
     color:white;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50%;
 }
 .about-us-front .lead{
     font-size: 100%;

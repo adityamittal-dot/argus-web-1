@@ -76,8 +76,22 @@ header{
     height: 90vh;
 }
 
+.head1 span{
+    color: #B90504;
+   
+}
+.head1{
+    padding: 2rem;
+}
+.card-title{
+    text-align: center !important;
+    padding-bottom: 2rem;
+    padding-top: 2rem !important;
+    
+}
 .card-box {
     padding: 10px;
+    
     background-color: #fff;
     border: 1px solid #dbdbdb;
     border-radius: 5px;
@@ -89,6 +103,16 @@ header{
 h2 {
     font-size: 30px;
 }
+.card i{
+    padding-top: 2rem;
+}
+.card  i:hover{
+    transform: scale(1.2);
+    color: #B90504;
+    transition:all .42s ease-in-out;
+
+}
+
 
  .vcard:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0,0.2);
@@ -444,7 +468,9 @@ h2 {
             width: 100%;
         }
         
-
+ul{
+    padding-left: 0;
+}
 .card_first{
     display: flex;
     flex-direction: column;
