@@ -145,3 +145,60 @@ header{
 .about-us-front .lead{
     font-size: 100%;
 }
+.container{
+    display: flex;
+}
+.box-1{
+    height: 400px;
+    width: 400px;
+    background-color: #2c2c2c;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.box-2{
+    height: 400px;
+    width: 400px;
+    background-color: #2c2c2c;
+    margin-left: 10%;
+}
+.box-1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,0.2);
+    transform: scale(1.1);
+    background-color: #B90504;
+}
+.box-2:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,0.2);
+    transform: scale(1.1);
+    background-color: #B90504;
+}
+.certificate{
+    display: flex;
+}
+.card-1{
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    display: inline-flex;
+    margin-left: 13%;
+}
+.card-2{
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    display: inline-flex;
+    margin-left: 5%;
+}
+.card-3{
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    display: inline-flex;
+    margin-left: 5%;
+}
+.head-c{
+    text-align: center;
+    font-size: 400%;
+    font-weight: 1000;
+    margin-bottom: 2%;
+}

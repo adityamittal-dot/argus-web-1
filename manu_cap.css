@@ -17,3 +17,61 @@
 .electrical{
     margin-left: 30%;
 }
+
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    right:0;
+    z-index: 1000;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px; 
+}
+
+.check-btn{
+    font-size: 2rem;
+    color:#B90504;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.navmenu{
+    display:flex;
+    justify-content:space-between;
+    position: sticky;
+    padding-top: 1%;
+}
+
+.navmenu a{
+   
+    text-transform: capitalize;
+    color:#2c2c2c;
+    font-size: 16px;
+    padding:10px 10px;
+    font-weight: 400;
+    transition:all .42s ease-in-out;
+    text-decoration: none;
+}
+
+.navmenu a:hover{
+    color:#B90504;  
+    transition:all .42s ease;
+}
+
+
+
+.logo img{
+    max-width: 100px;
+    height:auto;
+    margin-left: 50px;
+    transition: all .42s ease-in-out;
+}
+
+.logo img:hover{
+    transform: scale(1.1);
+}
